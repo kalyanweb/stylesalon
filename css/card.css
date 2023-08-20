@@ -1,0 +1,31 @@
+.card{
+    width:510px;
+    height: 460px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.img-div img{
+    width:140px;
+    height: 140px;
+    border-radius: 46%;
+    margin-top: 20px;
+    align-items: center;
+   
+}
+.img-div{
+    background-color: rgba(0,119,255);
+    height: 200px;
+    width: 300px;
+}
+.card p{
+    font-size: 13px;
+    color:rgba(107,107,107)
+}
+.containercard{
+    display:flex;
+    width:1000px;
+  
+    margin-top: 100px;
+}

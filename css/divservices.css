@@ -1,0 +1,20 @@
+.grand_parent{ width: 100vw; height:180vh;
+    /*background: #dfe6e9; color: #fff;}*/
+    .parents{ width: 50vw; height: auto; margin: auto;
+        display: flex;  justify-content: space-around;
+        flex-wrap: wrap; transition: all 0.2 linear;
+    }
+    .child{
+        height: 20px;
+        /*background:#81ecec;*/
+       
+        flex:1 1 200px;
+        margin: 10px;
+    }
+    
+    .child:first-child{
+       /* background: #ffbe76;*/
+    }
+    .child:last-child{
+       /* background: #ff7979;*/
+    }
